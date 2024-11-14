@@ -1,0 +1,131 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <title>Olive Garden</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <style>
+  body {font-family: "Times New Roman", Georgia, Serif;}
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    
+  }
+  #b:hover ~ #a{
+      content: url("https://media.olivegarden.com/en_us/images/product/d-parties-to-go-half-dozen-breadsticks-dpv.jpg");
+    } 
+  #c:hover ~ #a{
+      content: url("https://media.olivegarden.com/en_us/images/product/Fried-Mozzarella-dpv-1180X730.jpg");
+    }
+    
+  #d:hover ~ #a{
+        content: url("https://media.olivegarden.com/en_us/images/product/SoupSaladSticksToGo-dvp-1180X730.jpg");
+    }
+    
+  #e:hover ~ #a{
+        content: url("https://media.olivegarden.com/en_us/images/marketing/Warm-Italian-Donuts-Chocolate-dpv-1180x730.jpg");
+    }
+  </style>
+  </head>
+  <body>
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+      <a href="#h ome" class="w3-bar-item w3-button">Olive Garden</a>
+      <!-- Right-sided navbar links. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+        <a href="#about " class="w3-bar-item w3-button">About</a>
+        <a href="#menu " class="w3-bar-item w3-button">Menu</a>
+        <a href="#contact " class="w3-bar-item w3-button">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+    <img class="w3-image" src="https://www.abc27.com/wp-content/uploads/sites/55/2021/12/OliveGardenGettyImages-1326009258.jpg?w=1280" alt="Hamburger Catering" width="1600" height="800">
+    <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+      <h1 class="w3-xxlarge"style="color:whitesmoke;">Darden Restaurants</h1>
+    </div>
+  </header>
+
+  <!-- Page content -->
+  <div class="w3-content" style="max-width:1100px">
+
+    <!-- About Section -->
+    <div class="w3-row w3-padding-64" id="about">
+      <div class="w3-col m6 w3-padding-large w3-hide-small">
+      <img src="https://media-cdn.tripadvisor.com/media/photo-s/1a/31/4b/51/olive-garden-north-freeway.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750" style="margin-top: 10px;">
+      </div>
+
+      <div class="w3-col m6 w3-padding-large">
+        <h1 class="w3-center">About Us</h1><br>
+        <h5 class="w3-center">ITALIAN GENEROSITY IS
+          ALWAYS ON THE TABLE</h5>
+        <p class="w3-large"> At Olive Garden, we know that life is better together and everyone is happiest when they’re
+          with family. From never ending servings of our freshly baked breadsticks and iconic garden
+          salad, to our homemade soups and sauces, there’s something for everyone to enjoy.</p>
+        <p class="w3-large w3-text-grey w3-hide-medium">With more than 900 restaurants nationwide, we are uniquely positioned to help fight hunger
+          in the communities we serve. In 2003, we created our Harvest program, where all restaurants
+          gather wholesome, surplus food every day and carefully prepare it for weekly
+          donation to a local non-profit organization. Over 20 years, Olive Garden restaurants
+          have donated more than 49 million pounds of food. We also have a long-standing partnership
+          with Feeding America® and are helping to provide trucks for mobile food
+          pantry programs in areas with higher levels of food insecurity.</p>
+      </div>
+    </div>
+    
+    <hr>
+    
+    <!-- Menu Section -->
+    <div class="w3-row w3-padding-64" id="menu">
+      <div class="w3-col l6 w3-padding-large">
+        <h1 class="w3-center">Our Menu</h1><br>
+        <h4>       Fettuccine Alfredo</h4>
+        <p class="w3-text-grey">Our signature alfredo sauce made fresh in-house every morning with ingredients like parmesan, cream, garlic and butter, served over fettuccine <em>$16.79</em>. </p><br>
+      
+        <h4 id="b">Breadsticks (5)</h4>
+        <p class="w3-text-grey">An Olive Garden Favorite. Available Freshly-Baked or Bake-At-Home. Add an extra dozen or half dozen breadsticks to your online order <em>$4.49</em>.</p><br>
+      
+        <h4 id="c">Fried Mozzarella (5)</h4>
+        <p class="w3-text-grey">Fried mozzarella cheese with marinara sauce. <em>$8.79</em></p><br>
+      
+        <h4 id="d">Soup AND Salad AND Breadsticks</h4>
+        <p class="w3-text-grey">Our famous house salad, choice of homemade soup and warm garlic breadsticks, perfect for dinner! <em>$13.99</em></p><br>
+      
+        <h4 id="e">Warm Italian Doughnuts (5)</h4>
+        <p class="w3-text-grey">Fried doughnuts tossed in vanilla sugar. Served with raspberry or chocolate sauce <em>$8.49</em></p>    
+    
+
+      
+        <img id="a" src="https://media.olivegarden.com/en_us/images/product/classic-fettuccine-alfredo-dinner-dpv-590x365.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width: 500px; position: absolute;top:275%;right:10%;">
+    </div>
+
+    <hr>
+
+    <!-- Contact Section -->
+    <div class="w3-container w3-padding-64" id="contact">
+      <h1>Contact</h1><br>
+      <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+      <p class="w3-text-blue-grey w3-large"><b>Olive Garden,  TUKWILA - SOUTHCENTER MALL</b></p>
+      <p>You can also contact us by phone (206) 241-4899</p>
+      <form action="/action_page.php" target="_blank">
+        <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" require name="People"></p>
+        <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+        <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+        <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+      </form>
+    </div>
+    
+  <!-- End page content -->
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-center w3-light-grey w3-padding-32">
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a>&<a href="https://www.olivegarden.com" title="Olive Garden" target="_blank" class="w3-hover-text-green">Olive Garden</a></p>
+  </footer>
+
+  </body>
+  </html>
